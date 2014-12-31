@@ -1,7 +1,11 @@
 '''
-Prompts the user for ciphertext and prints out all 26 possible rotations of the ciphertext. [It is then up to the user to decide which one should be the plaintext.]
+Prompts the user for ciphertext and prints out all 26 possible rotations of
+the ciphertext. [It is then up to the user to decide which one should be the
+plaintext.]
 
-TODO: then it searches for an instance of the words in an English words list (words.txt) and returns the most likely ROT-N used followed by the most likely plaintext.
+TODO: then it searches for an instance of the words in an English words list
+(words.txt) and returns the most likely ROT-N used followed by the most likely
+plaintext.
 
 Also see the rot_n.py header doc.
 '''

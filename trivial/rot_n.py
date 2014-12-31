@@ -2,7 +2,8 @@
 Prompts the user for plaintext, how much they want to rotate the alphabet by,
 and prints out the ciphertext.
 
-normalize() "wraps" the letter back to the beginning of the alphabet, in case its translation exceeds the decimal Unicode mapping for that letter's case.
+normalize() "wraps" the letter back to the beginning of the alphabet, in case
+its translation exceeds the decimal Unicode mapping for that letter's case.
 
 Also note that
 ord(A,Z) = 65, 90
