@@ -1,4 +1,6 @@
 '''
+*** SEE THE ADVANCED VERSION adv_rot_n.py AND adv_rot_n_decrypt.py ***
+
 Prompts the user for plaintext, how much they want to rotate the alphabet by,
 and prints out the ciphertext.
 
