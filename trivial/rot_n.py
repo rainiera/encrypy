@@ -2,11 +2,12 @@
 Prompts the user for plaintext, how much they want to rotate the alphabet by,
 and prints out the ciphertext.
 
-Also note:
+normalize() "wraps" the letter back to the beginning of the alphabet, in case its translation exceeds the decimal Unicode mapping for that letter's case.
+
+Also note that
 ord(A,Z) = 65, 90
 ord(a,z) = 97, 122
-
-as these are the values used for the normalize() function.
+as these are the values used as bounds for the normalize() function
 '''
 
 import string
