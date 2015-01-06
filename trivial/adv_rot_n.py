@@ -5,6 +5,9 @@ See the rot_n.py header doc.
 '''
 
 import string
+from flask import Flask
+app = Flask(__name__)
+
 
 def rotateLetter(letter, n):
     if letter.isupper():
@@ -26,3 +29,4 @@ if __name__ == '__main__':
     plaintext = raw_input("\nEnter plaintext: ")
     n = int(raw_input("Rotate by how much?: "))
     print "\nHere is the ciphertext: {}\n".format(rotateWord(plaintext, n))
+    app.run()
